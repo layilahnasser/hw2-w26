@@ -1,4 +1,3 @@
-/* BODY */
 body {
   font-family: Arial, Verdana;
   background-color: #000000;
@@ -9,7 +8,6 @@ body {
   margin-left: 20px;
 }
 
-/* HEADINGS */
 h1 {
   font-size: 42px;
   text-align: center;
@@ -21,14 +19,12 @@ h2 {
   color: #0d0d0d;
 }
 
-/* PARAGRAPHS */
 p {
   font-size: 24px;
   padding-top: 10px;
   padding-left: 10px;
 }
 
-/* IMAGES */
 img {
   width: 250px;
   display: block;
@@ -37,21 +33,18 @@ img {
   border: 10px dashed #ffffff;
 }
 
-/* DEFAULT DIV STYLES */
 div {
   min-height: 125px;
   padding: 20px;
   border: 3px solid #ffffff;
 }
 
-/* INTRODUCTION */
 .introduction {
   border-radius: 15px;
   margin-top: 15px;
   line-height: 2;
 }
 
-/* RED SECTION */
 .red {
   background-color: #ff0000;
   text-align: right;
@@ -62,7 +55,6 @@ div {
   border-left: 5px solid #ffffff;
 }
 
-/* BLUE SECTION */
 .blue {
   background-color: #0000ff;
   text-align: left;
@@ -78,7 +70,6 @@ div {
   color: #c4c4c4;
 }
 
-/* YELLOW SECTION */
 .yellow {
   background-color: #ffff00;
   text-align: right;
@@ -93,9 +84,8 @@ div {
   color: #707070;
 }
 
-/* GREEN SECTION */
 .green {
-  background-color: #00eb00;
+  background-color: #008500;
   text-align: left;
   margin-right: 50px;
 
@@ -104,18 +94,17 @@ div {
   border-right: 5px solid #ffffff;
 }
 
-/* FOOTER */
 footer {
-  background: linear-gradient(
-    #000000,
+  background: linear-gradient(to right,
+    #000000 0%,
     #0000ff 25%,
     #0066ff 70%,
-    #000000
+    #000000 100%
   );
   border: 5px solid #ffffff;
 }
 
-/* FOOTER PARAGRAPHS */
+
 footer p {
   font-size: 20px;
   text-align: right;
